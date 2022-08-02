@@ -61,7 +61,7 @@ body{
 
 .header{
     height: 60vh !important;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(S/img/1484240614-11-Trucos-psicológicos-del-negocio-de-supermercados.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/1484240614-11-Trucos-psicológicos-del-negocio-de-supermercados.jpg);
     background-size: cover;
 }
 
