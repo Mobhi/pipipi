@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    background-color: #000000;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background-color:black ;
+   
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo{
+    margin-left: 30px;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a{
+    display: block;
+    padding: 20px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover{
+    background: rgb(53, 53, 53);
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header{
+    height: 60vh !important;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(S/img/1484240614-11-Trucos-psicológicos-del-negocio-de-supermercados.jpg);
+    background-size: cover;
+}
+
+.title {
+
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: white;
+    padding: 0px;
+}
+.p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: white;
+    padding: 0 100px;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #2752b0;
+    color: white;
+    text-decoration: none;
+    background: #2752b0;
+}
+
+.btn:hover {
+    background: #2752b07a;
+
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+
+.content {
+    
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sau {
+
+    position: relative;
+    padding: 100px;
+    background: #1f1d1d;
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+.box-container .box{
+    height: 11rem;
+    width: 17rem;
+    background: black;
+    text-align: center;
+    border-radius: 30px;
+    margin: 2rem;
+}
+
+.box-container .box i{
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    background: #2752b0;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+.box-container .box h3{
+    font-size: 15px;
+    color: #2752b0;
+}
+.box-container .box p{
+    padding: 0 15px;
+    font-size: 12px;
+    
+}
+
+.about{
+    background: #171717;
+}
+
+.price{
+    background: #414040 no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+   
+}
+
+.contact{
+    padding-top: 20px;
+    background: #171717;
+    padding-top: 0;
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/depositphotos_28211641-stock-photo-fruits-and-vegetables-at-city.jpg);
+}
+
+.content{
+    
+    padding: 150px;
+}
+
+@media screen and (max-width: 1100px){
+    .navbar{
+        visibility: hidden;
+    }
+    .content{
+        padding: 350px;
+    }
+    
+    .p{
+        padding:initial;
+        
+    
+    }
+    .box-container{
+        padding-bottom: 0px;
+    }
+    .title{
+        font-size: 35px;
+        margin-top: 3rem;
+    }
+    
+}
